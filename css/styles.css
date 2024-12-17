@@ -125,6 +125,20 @@ body {
 .cart__delete-icon img {
   width: 100%;
 }
+.cart__empty-button {
+  background-color: #d9534f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  margin-top: 10px;
+}
+.cart__empty-button:hover {
+  background-color: #c9302c;
+}
+
 
 .footer {
   display: flex;
