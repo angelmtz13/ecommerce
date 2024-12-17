@@ -143,6 +143,34 @@ body {
   background-color: #c9302c;
 }
 
+.offers {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+.offers__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.offers__item {
+  display: inline-block;
+  margin: 10px;
+}
+.offers__image {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.offers__price {
+  color: #d9534f;
+  font-weight: bold;
+}
+.offers__old-price {
+  color: #999;
+  margin-right: 5px;
+}
+
+
 
 .footer {
   display: flex;
