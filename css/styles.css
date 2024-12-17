@@ -77,11 +77,15 @@ body {
   font-size: 15px;
 }
 .products__button {
-  background-color: rgb(8, 16, 23);
+  background-color: #0056b3;
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 15px;
+  border: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.products__button:hover {
+  background-color: #003d82;
 }
 
 .cart {
